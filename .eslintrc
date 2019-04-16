@@ -1,0 +1,26 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "mocha": true
+    },
+    "extends": "base",
+    "parserOptions": {
+        "ecmaVersion": 2017,
+        "sourceType": "module"
+    },
+    "rules": {
+        "eol-last": 0,
+        "indent": 0,
+        "linebreak-style": 0,
+        "no-tabs": 0,
+        "max-len": [
+            "error",
+            {
+                "code": 150
+            }
+        ],
+        "comma-dangle": ["error", "never"]
+    }
+}

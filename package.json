@@ -1,0 +1,41 @@
+{
+  "name": "desafio-b2w",
+  "version": "1.0.0",
+  "description": "Desafio B2W Digital",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "node ./node_modules/mocha/bin/mocha"
+  },
+  "private": true,
+  "author": "Leonardo Py",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "consign": "^0.1.6",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.3",
+    "express-joi-validation": "^0.3.0",
+    "joi": "^14.3.0",
+    "mongodb": "^2.2.33",
+    "mongoose": "^5.0.13",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.2.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-mocha": "0.0.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-mocha-only": "0.0.3",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "mocha": "^5.0.5",
+    "sinon": "^4.5.0",
+    "supertest": "^3.0.0"
+  }
+}
